@@ -1,17 +1,23 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class followsScript : MonoBehaviour
 {
-    public float speed = 1f;
+   protected NavMeshAgent agent;
     public Transform target;
 
-
+    private void Start()
+    {
+        agent = GetComponent<NavMeshAgent>();
+    }
 
     // Update is called once per frame
     void Update()
-    {
-        transform.position = Vector3.MoveTowards(transform.position, target.position, speed*Time.deltaTime);
+    {   
+        agent.SetDestination(target.position);
+       
     }
 }
