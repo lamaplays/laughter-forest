@@ -4,11 +4,9 @@ using UnityEngine;
 
 public class pickUp : MonoBehaviour
 {
-    public GameObject key;
-
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
-        if(collision.collider.CompareTag("player"))
-        {  Destroy(key); }
+        if (other.gameObject.CompareTag("key"))
+        { Destroy(other.gameObject); }
     }
 }
