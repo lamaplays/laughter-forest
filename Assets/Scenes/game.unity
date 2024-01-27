@@ -229,6 +229,124 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7a91bca74e8b8574dbb2ef5d02bd82c3, type: 3}
+--- !u!1 &10282390
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 10282395}
+  - component: {fileID: 10282394}
+  - component: {fileID: 10282393}
+  - component: {fileID: 10282392}
+  - component: {fileID: 10282391}
+  m_Layer: 0
+  m_Name: Cube
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &10282391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 10282390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc99ee232cc3a3d40928cdfff5060d8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &10282392
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 10282390}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &10282393
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 10282390}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &10282394
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 10282390}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &10282395
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 10282390}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -12.209454, y: 0.23, z: -12.914881}
+  m_LocalScale: {x: 0.44021, y: 0.44021, z: 0.44021}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &78587071
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -958,6 +1076,32 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 409248, guid: da8e893168526164591f81d60c0e06b1, type: 3}
   m_PrefabInstance: {fileID: 1200012875}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &183162893 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3241266199762412106, guid: 5c0269edb0cbc2c418a1388fd0ccf72a, type: 3}
+  m_PrefabInstance: {fileID: 917138289}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &183162894
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 183162893}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.1728277, y: 1.6646584, z: 0.6336438}
+  m_Center: {x: -0.12177597, y: 0.061989453, z: -0.18317671}
 --- !u!4 &189816537 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400024, guid: bb8d1c9f2e6b0f74e971079fe81885b9, type: 3}
@@ -3352,7 +3496,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 1
+  m_Intensity: 1.3
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -3411,7 +3555,7 @@ Transform:
   m_GameObject: {fileID: 705507993}
   serializedVersion: 2
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: -3.59, y: 12.79, z: 5.67}
+  m_LocalPosition: {x: -3.59, y: 21.51, z: 5.67}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4092,12 +4236,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 753706213}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.0025991194, z: -0, w: 0.99999666}
-  m_LocalPosition: {x: 1.53, y: 1.11, z: 33.842}
-  m_LocalScale: {x: 1.3476053, y: 1, z: 1.5577682}
+  m_LocalRotation: {x: 0, y: -0.99438906, z: -0, w: -0.105785035}
+  m_LocalPosition: {x: -0.13101058, y: 0.19099998, z: 0.7950388}
+  m_LocalScale: {x: 1.347605, y: 1, z: 1.5577679}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1104668736}
   m_LocalEulerAnglesHint: {x: 0, y: -0.298, z: 0}
 --- !u!114 &753706219
 MonoBehaviour:
@@ -4112,50 +4256,207 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueStrings:
-  - text: hello
+  - text: uh, another prey.
     isEnd: 0
+    isQuestion: 1
+    answerOption1: i heard awful things about you
+    answerOption2: HUH HAHA
+    option1IndexJump: 1
+    option2IndexJump: 2
+    startDialogueEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    endDialogueEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - text: what things?
+    isEnd: 0
+    isQuestion: 1
+    answerOption1: ' like commiting a Massacre'
+    answerOption2: running over people with your car
+    option1IndexJump: 7
+    option2IndexJump: 6
+    startDialogueEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    endDialogueEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - text: are you mocking me?!!
+    isEnd: 0
+    isQuestion: 1
+    answerOption1: NO IM SORRY.
+    answerOption2: yes, show me what you got.
+    option1IndexJump: 3
+    option2IndexJump: 4
+    startDialogueEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    endDialogueEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - text: anyway, what brought you here?
+    isEnd: 0
+    isQuestion: 1
+    answerOption1: you dont look like my grandma.
+    answerOption2: i came to see my grandma, she normally lives in this house ...
+    option1IndexJump: 9
+    option2IndexJump: 9
+    startDialogueEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    endDialogueEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - text: um no,anyway, what brought you here?
+    isEnd: 0
+    isQuestion: 1
+    answerOption1: you dont look like my grandma.
+    answerOption2: i came to see my grandma, she normally lives in this house ...
+    option1IndexJump: 9
+    option2IndexJump: 9
+    startDialogueEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    endDialogueEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - text: what things?
+    isEnd: 0
+    isQuestion: 1
+    answerOption1: ' like commiting a Massacre'
+    answerOption2: running over people with your car
+    option1IndexJump: 7
+    option2IndexJump: 6
+    startDialogueEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    endDialogueEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - text: i dont have a car.
+    isEnd: 0
+    isQuestion: 1
+    answerOption1: i can see why.but now where is grandma?
+    answerOption2: where is grandma?
+    option1IndexJump: 9
+    option2IndexJump: 9
+    startDialogueEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    endDialogueEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - text: that was a long time ago.
+    isEnd: 0
+    isQuestion: 1
+    answerOption1: i see, but now where is grandma?
+    answerOption2: do i have to do something so i can see my grandma again?
+    option1IndexJump: 9
+    option2IndexJump: 9
+    startDialogueEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    endDialogueEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - text: that was a long time ago.
+    isEnd: 0
+    isQuestion: 1
+    answerOption1: i see, but now where is grandma?
+    answerOption2: do i have to do something so i can see my grandma again?
+    option1IndexJump: 9
+    option2IndexJump: 9
+    startDialogueEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    endDialogueEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - text: she is sleeping somewhere, perhaps ...
+    isEnd: 0
+    isQuestion: 1
+    answerOption1: you ate grandma.
+    answerOption2: its 2 pm.
+    option1IndexJump: 10
+    option2IndexJump: 10
+    startDialogueEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    endDialogueEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - text: i can find grandma for you, but you have to make me laugh, you got two
+      chances
+    isEnd: 0
+    isQuestion: 1
+    answerOption1: im not your personal clown
+    answerOption2: anything  for grandma
+    option1IndexJump: 11
+    option2IndexJump: 12
+    startDialogueEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    endDialogueEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - text: no grandma for you then
+    isEnd: 0
+    isQuestion: 1
+    answerOption1: okayyyyyy, ugh
+    answerOption2: '* what kinda slime is this*'
+    option1IndexJump: 12
+    option2IndexJump: 12
+    startDialogueEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    endDialogueEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - text: alright, go ahead
+    isEnd: 0
+    isQuestion: 1
+    answerOption1: What does a house wear? Address.
+    answerOption2: What kind of witch goes to the beach? A sandwich.
+    option1IndexJump: 13
+    option2IndexJump: 14
+    startDialogueEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    endDialogueEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - text: that was awful, try again, or die.
+    isEnd: 0
+    isQuestion: 1
+    answerOption1: oh no
+    answerOption2: okay okay, why are you always angry
+    option1IndexJump: 12
+    option2IndexJump: 12
+    startDialogueEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    endDialogueEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - text: 'HAHAHAHAHAHA '
+    isEnd: 0
+    isQuestion: 1
+    answerOption1: do you hear that??!
+    answerOption2: i can hear you grandma, im comingg
+    option1IndexJump: 15
+    option2IndexJump: 15
+    startDialogueEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    endDialogueEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - text: HAHAHAHAHAHA.....
+    isEnd: 1
     isQuestion: 0
     answerOption1: 
     answerOption2: 
-    option1IndexJump: 0
-    option2IndexJump: 0
-    startDialogueEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    endDialogueEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - text: how are u
-    isEnd: 0
-    isQuestion: 1
-    answerOption1: im good
-    answerOption2: fuck u
-    option1IndexJump: 2
-    option2IndexJump: 3
-    startDialogueEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    endDialogueEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - text: me too
-    isEnd: 1
-    isQuestion: 0
-    answerOption1: 
-    answerOption2: ' u'
-    option1IndexJump: 0
-    option2IndexJump: 0
-    startDialogueEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    endDialogueEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - text: aw im sad :(
-    isEnd: 1
-    isQuestion: 0
-    answerOption1: 
-    answerOption2: ' '
     option1IndexJump: 0
     option2IndexJump: 0
     startDialogueEvent:
@@ -4170,6 +4471,23 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 550749511122384726, guid: c37df0d209b5c9b4a9020af45615fbc2, type: 3}
   m_PrefabInstance: {fileID: 341273310}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &778977239 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 105912, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
+  m_PrefabInstance: {fileID: 1830792781}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &778977243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 778977239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f31e76f1d0c7a542a91286d109e8fa9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &782521703
 GameObject:
   m_ObjectHideFlags: 0
@@ -4780,20 +5098,28 @@ PrefabInstance:
     m_TransformParent: {fileID: 1998650504}
     m_Modifications:
     - target: {fileID: 1401092852482220679, guid: 5c0269edb0cbc2c418a1388fd0ccf72a, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.1752126
+      objectReference: {fileID: 0}
+    - target: {fileID: 1401092852482220679, guid: 5c0269edb0cbc2c418a1388fd0ccf72a, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.1752123
+      objectReference: {fileID: 0}
+    - target: {fileID: 1401092852482220679, guid: 5c0269edb0cbc2c418a1388fd0ccf72a, type: 3}
       propertyPath: m_LocalScale.z
-      value: 2.7710884
+      value: 1.7586989
       objectReference: {fileID: 0}
     - target: {fileID: 1401092852482220679, guid: 5c0269edb0cbc2c418a1388fd0ccf72a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.52126
       objectReference: {fileID: 0}
     - target: {fileID: 1401092852482220679, guid: 5c0269edb0cbc2c418a1388fd0ccf72a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.04
       objectReference: {fileID: 0}
     - target: {fileID: 1401092852482220679, guid: 5c0269edb0cbc2c418a1388fd0ccf72a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0.1609
       objectReference: {fileID: 0}
     - target: {fileID: 1401092852482220679, guid: 5c0269edb0cbc2c418a1388fd0ccf72a, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4830,7 +5156,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3241266199762412106, guid: 5c0269edb0cbc2c418a1388fd0ccf72a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 183162894}
   m_SourcePrefab: {fileID: 100100000, guid: 5c0269edb0cbc2c418a1388fd0ccf72a, type: 3}
 --- !u!1001 &919072301
 PrefabInstance:
@@ -5655,6 +5984,157 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a1a802ecaf6775746bb2a929fb554ad8, type: 3}
+--- !u!1 &1255852836 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 170560, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
+  m_PrefabInstance: {fileID: 1830792781}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1255852838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1255852836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 138cf4f6d029dbe49a24fcb8ecee3de4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: {fileID: 1255852836}
+--- !u!1 &1270095846
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1270095851}
+  - component: {fileID: 1270095850}
+  - component: {fileID: 1270095849}
+  - component: {fileID: 1270095848}
+  - component: {fileID: 1270095847}
+  m_Layer: 0
+  m_Name: 2nd convo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &1270095847
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1270095846}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1270095848
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1270095846}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1270095849
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1270095846}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1270095850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1270095846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182f926220a390c43bae0a9be27bfe01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueStrings:
+  - text: are you sure ? im getting a bit shaky
+    isEnd: 1
+    isQuestion: 0
+    answerOption1: 
+    answerOption2: 
+    option1IndexJump: 0
+    option2IndexJump: 0
+    startDialogueEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    endDialogueEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  NPCTransform: {fileID: 1104668736}
+--- !u!4 &1270095851
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1270095846}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.0025991194, z: -0, w: 0.99999666}
+  m_LocalPosition: {x: -0.8, y: 1.03, z: 16.96}
+  m_LocalScale: {x: 51.697647, y: 2.3612, z: 3.6782024}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0.298, z: 0}
 --- !u!1001 &1274438513
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8383,36 +8863,46 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 462124, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.889
+      value: -24.834
       objectReference: {fileID: 0}
     - target: {fileID: 462124, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.022768548
+      value: 0.022768497
       objectReference: {fileID: 0}
     - target: {fileID: 462124, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 15.923
+      value: 58.838203
       objectReference: {fileID: 0}
     - target: {fileID: 462124, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.82469654
+      value: 0.4228264
       objectReference: {fileID: 0}
     - target: {fileID: 462124, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 462124, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.56557554
+      value: 0.9062107
       objectReference: {fileID: 0}
     - target: {fileID: 462124, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 462124, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 129.974
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 170560, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1255852838}
+    - targetCorrespondingSourceObject: {fileID: 105912, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 778977243}
   m_SourcePrefab: {fileID: 100100000, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
 --- !u!1001 &1832602039
 PrefabInstance:
@@ -9241,7 +9731,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 8955322500898459853, guid: 28d0a30d6aed6fc4c8ca473413f70c24, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 753706218}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28d0a30d6aed6fc4c8ca473413f70c24, type: 3}
 --- !u!4 &2101511136 stripped
@@ -9902,8 +10395,8 @@ SceneRoots:
   - {fileID: 1251412919}
   - {fileID: 887099339}
   - {fileID: 1830792781}
-  - {fileID: 753706218}
   - {fileID: 325021981}
+  - {fileID: 1270095851}
   - {fileID: 1566051037}
   - {fileID: 454490735}
   - {fileID: 2050759018}
@@ -9932,3 +10425,4 @@ SceneRoots:
   - {fileID: 416161935}
   - {fileID: 1639486556}
   - {fileID: 1802387820}
+  - {fileID: 10282395}
